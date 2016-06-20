@@ -108,7 +108,11 @@
             return {
               "Distinct_id": user.distinct_id,
               "Email": user.properties.$email,
-              "city": user.properties.$city,
+              "City": user.properties.$city,
+              "Region": user.properties.$region,
+              "Country Code": user.properties.$country_code,
+              "First Name": user.properties.$first_name,
+              "Last Name": user.properties.$last_name,
               "survey": answers
               }
           });
